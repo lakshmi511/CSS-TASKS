@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color:aliceblue;
+        }
+
+        header{
+            height:100px;
+            width:1380px;
+            background:linear-gradient(rgb(250, 123, 5));
+            border:2px solid white;
+            border-radius: 15px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h2{
+            color:white;
+            font-size:30px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            color:white;
+            margin-left:50px;
+        }
+        main{
+            display:flex;
+             }
+             aside{
+                display: flex;
+                flex-direction: column;
+                background-color: beige;
+                height: 110vh;
+                width:70vw;
+                gap:35px;
+                border:2px solid white;
+                border-radius: 20px;
+                font-size:50px;
+
+             }
+             aside h2{
+                text-align:center;
+                color:pink;
+                font-size: 35px;
+            
+             }
+             
+               .home:hover{
+                    font-size:25px;
+                 font-family: lucida handwriting;
+                 border:2px solid white;
+                 border-radius:10px;
+                    color:cornflowerblue;
+                    cursor: pointer;
+                }
+                .container{
+                    background: radial-gradient(circle,orange,red,orange);
+                    height:200px;
+                    width:1209px;
+                    border-radius: 9px;
+                    border:2px solid orange;
+        
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                 .del{
+                    font-size: 20px;
+                    color:white;
+                }
+                input{
+                    height: 30px;
+                    width:100px;
+                    border:2px solid white;
+                    border-radius: 50px;
+                    text-align:center;
+                    color:orange;
+
+                }
+                .off{
+                    height:100px;
+                    width:100px;
+                    background-color: white;
+                    border:2px solid  white;
+                    border-radius:50%;
+                    text-align: center;
+                    line-height: 100px;
+                    font-size:20px;
+                    color:orange;
+                     
+                }
+                #h2{
+                    text-align:center;
+                    font-size:30px;
+                }
+                .cards{
+                    height:330px;
+                    width:1190px;
+                    display:flex;
+                    background-color: white;
+                    border:2px solid white;
+                    border-radius:5px;
+                    gap:80px;
+                    margin:10px;
+                    
+                }
+                .card{
+                    height:310px;
+                    width:300px;
+                    background-color: white;
+                    border-radius: 5px;
+                    border: 10px solid white;
+                }
+                .card img{
+                    height:60%;
+                    width:100%;
+                    
+                
+                    border-radius: 5px;
+                }
+                .one{
+                    font-size:20px;
+                    color:pink;
+                }
+                .two{
+                    font-size:20px;
+                    color:green;
+                }
+                .buy1{
+                    height:40px;
+                    width:55px;
+                    border: 2px solid white;
+                    border-radius:15px;
+
+                    background-color: orange;
+                    color:white;
+                    margin-left: 200px;
+                    position:relative;
+                    bottom: 10px;
+                
+
+                }
+                .buy{
+                    height:40px;
+                    width:55px;
+                    border: 2px solid white;
+                    border-radius:15px;
+
+                    background-color: orange;
+                    color:white;
+                    margin-left: 200px;
+
+                }
+                .hot{
+                    background-color: red;
+                    color:white;
+                    height:25px;
+                    width:35px;
+                    border:2px solid white;
+                    border-radius:50%;
+                    position: relative;
+                    bottom:284px;
+                    left:14px;
+                 }
+                 .New{
+                     background-color: red;
+                    color:white;
+                    height:25px;
+                    width:35px;
+                    border:2px solid white;
+                    border-radius:50%;
+                    position: relative;
+                    bottom:265px;
+                    left:11px;
+
+                 }
+                 .container1{
+                     background-color:white;
+                     border:2px solid white;
+                     border-radius:10px;
+                    height:200px;
+                    width:1200px;
+        
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 30px;
+                 }
+                 .three{
+                    text-align: center;
+                    border:2px solid white;
+                    border-radius:10px;
+                 }
+                 footer{
+                    height:50px;
+                    width:1384px;
+                    background:linear-gradient(to left,orange,red,orange,red);
+                    text-align: center;
+                    color:white;
+                    line-height: 50px;
+                    border-radius: 15px;
+                 }
+                
+
+    </style>
+</head>
+<body>
+    
+        <header class="header">
+            <h2>🍔FSE 60 FoodHub</h2>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">Offers</a>
+                <a href="">Contact</a>
+            </nav>
+
+        </header>
+        <main>
+            <aside> 
+                <h2>Dashboard</h2>
+                <button class="home">🏡Home</button>
+                <button class="home">🍕Menu</button>
+                <button class="home">📦Orders</button>
+                <button class="home">💝Wishlist</button>
+                <button class="home">🎁Offers</button>
+                <button class="home">📞Contact</button>
+               
+            </aside>
+            <section>
+                <div class="container">
+                <div class="del">
+                    <h2 class="h2">Delicious Food</h2>
+                    <p>Fresh-Tasty-Healthy</p>
+                     <input type="text" value="Order Now">
+                    </div>
+                    <div class="off">
+                        50% OFF
+                    </div>
+                </div>
+            
+                    <h2 id="h2">Today's Special</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D" alt="">
+                        <p class="one">Cheese pizza</p>
+                        <p>Loaded with mozzarella cheese and fresh vegetables</p>
+                        <p class="two">	&#8377;349</p>
+                        <button class="buy1">Buy</button>
+                        <button class="hot">Hot</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fHww" alt="">
+                        <p class="one">Chicken Burger</p>
+                        <p>Juicy grilled burger served with crispy fries.</p>
+                         <p class="two">&#8377;249</p>
+                        <button class="buy">Buy</button>
+                        <button class="New">New</button>
+                    </div>
+                    <div class="card">
+                        <img src="https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGFzdGF8ZW58MHx8MHx8fDA%3D" alt="">
+                        <p class="one">White Pasta</p>
+                        <p>Creamy italian pasta with delicious herbs.</p>
+                         <p class="two">&#8377;299</p>
+                        <button class="buy">Buy</button>
+                        <button class="New">Best</button>
+                    </div>
+</div>
+<div class="container1">
+    <div class="three">
+        <p>🛻</p>
+        <p>Fast Delivery</p>
+        <p>Delivered within 30 Minutes.</p>
+    </div>
+     <div class="three">
+        <p>🍴</p>
+        <p>Fresh Food</p>
+        <p>Prepared with fresh ingredients.</p>
+    </div>
+     <div class="three">
+        <p>⭐</p>
+        <p>Top Rated</p>
+        <p>Trusted by thousands of customers.</p>
+    </div>
+    </div>
+        </section>
+        </main>
+        <footer>
+            &copy;2026 FSE 60 FoodHub |
+            All Rights Reserved By Batch 60
+        </footer>
+            
+
+    
+</body>
+</html>
